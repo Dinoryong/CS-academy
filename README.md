@@ -15,7 +15,7 @@ Learning ...
 
 <br>
 
-## Operating Systems [LINK](https://github.com/Dinoryong/CS-academy/tree/main/OS)
+## Operating Systems [LINK](https://github.com/Dinoryong/CS-academy/blob/main/OS/README.md)
 
 
 
