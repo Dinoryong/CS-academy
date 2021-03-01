@@ -1,10 +1,6 @@
 # CS-academy
 
-
-
-
-
-Learning ...
+Now I'm currently learning and taking notes about ...
 
 > [toc]
 >
