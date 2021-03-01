@@ -665,11 +665,11 @@ CPU에서 주소를 전달 → 캐시 기억장치에 명령이 존재하는지 
 
 #### references
 
-sites : [github1](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/OS), [github2](https://github.com/gyoogle/tech-interview-for-developer/tree/master/Computer%20Science/Operating%20System), [blog1](https://goodgid.github.io/category/#OS), [blog2](https://m.blog.naver.com/PostList.nhn?blogId=adamdoha&categoryNo=81&listStyle=style1), 
+sites : [github1](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/OS), [github2](https://github.com/gyoogle/tech-interview-for-developer/tree/master/Computer%20Science/Operating%20System), [wv_github](https://github.com/WooVictory/Ready-For-Tech-Interview/tree/master/Operating%20System), [dh_github](https://github.com/devham76/tech-interview-study) [ws_github](https://github.com/WeareSoft/tech-interview), [trello](https://trello.com/b/BWtpfywH/%EC%8B%A0%EC%9E%85-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EA%B8%B0%EC%88%A0%EB%A9%B4%EC%A0%91), [goQ_github](https://github.com/Integerous/goQuality-dev-contents),  [Goodgid_blog](https://goodgid.github.io/category/#OS), [Dolphago_blog](https://m.blog.naver.com/PostList.nhn?blogId=adamdoha&categoryNo=81&listStyle=style1), [gyoo_blog](https://gyoogle.dev/blog/), [wh_blog](https://oolaf.tistory.com/m/123), [info for junior](https://github.com/jojoldu/junior-recruit-scheduler), [cheatsheets](https://github.com/rstacruz/cheatsheets)
 
 books : [운영체제10th](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791185475578&orderClick=LEa&Kc=), [운영체제와 정보기술의 원리](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791158903589&orderClick=LEa&Kc=)
 
-lectures : [kocw1](http://www.kocw.net/home/search/kemView.do?kemId=1046323), [kocw2](http://www.kocw.net/home/search/kemView.do?kemId=1349152&ar=relateCourse), [youtube1](https://youtu.be/zGBm37kze9I?list=PLHqxB9kMLLaOs2BM2KbuvttBYCgDoFm-5)
+lectures : [kocw1](http://www.kocw.net/home/search/kemView.do?kemId=1046323), [kocw2](http://www.kocw.net/home/search/kemView.do?kemId=1349152&ar=relateCourse), [youtube1](https://youtu.be/zGBm37kze9I?list=PLHqxB9kMLLaOs2BM2KbuvttBYCgDoFm-5), [line_youtube](https://www.youtube.com/channel/UC4CjFOoZlYSaqMHEDFCKcXQ), [wooah_youtube](https://youtu.be/1xJU8HfBREY?list=PLgXGHBqgT2TvpJ_p9L_yZKPifgdBOzdVH)
 
 etc : 
 
