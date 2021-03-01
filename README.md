@@ -16,7 +16,11 @@ Learning ...
 
 <br>
 
-## Operating System [LINK] (../OS/README)
+## O 
+
+[Operating Systems]: https://github.com/Dinoryong/CS-academy/tree/main/OS
+
+
 
 
 
