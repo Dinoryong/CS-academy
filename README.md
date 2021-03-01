@@ -2,20 +2,39 @@
 
 
 
+
+
 Learning ...
 
-
-
-<img src="C:\Users\multicampus\Desktop\Dinoryong_GIT\1_CS\CS-academy\images\tyrano.svg" style="zoom:25%;" /> Operating Systems
-
-
-
-Network
+> [toc]
+>
+> 
 
 
 
-Database
+--------
 
 
 
-Computer Architeceture
+## Operating System -> 
+
+[Link]: https://github.com/Dinoryong/CS-academy/tree/main/OS
+
+
+
+## Network
+
+[Link]: https://github.com/Dinoryong/CS-academy/tree/main/NW
+
+
+
+## Database
+
+[Link]: https://github.com/Dinoryong/CS-academy/tree/main/DB
+
+
+
+## Computer Architeceture
+
+[Link]: https://github.com/Dinoryong/CS-academy/tree/main/AT
+
