@@ -16,9 +16,9 @@ Learning ...
 
 <br></br>
 
-<br></br>
+## Operating System  
 
-## Operating System  [Link] (https://github.com/Dinoryong/CS-academy/tree/main/OS) .
+[참조링크]: https://github.com/Dinoryong/CS-academy/tree/main/OS	"LINK"
 
 
 
