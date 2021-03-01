@@ -16,25 +16,27 @@ Learning ...
 
 
 
-## Operating System -> 
 
-[Link]: https://github.com/Dinoryong/CS-academy/tree/main/OS
+
+## Operating System 
+
+[]: https://github.com/Dinoryong/CS-academy/tree/main/OS	"Link"
 
 
 
 ## Network
 
-[Link]: https://github.com/Dinoryong/CS-academy/tree/main/NW
+
 
 
 
 ## Database
 
-[Link]: https://github.com/Dinoryong/CS-academy/tree/main/DB
+
 
 
 
 ## Computer Architeceture
 
-[Link]: https://github.com/Dinoryong/CS-academy/tree/main/AT
+
 
