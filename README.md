@@ -5,9 +5,11 @@ Now I'm currently learning and taking notes about ...
 > [toc]
 >
 
-
-
 --------
+
+<br>
+
+curriculum for beginners
 
 <br>
 
