@@ -9,6 +9,8 @@
 ### **1. 스케줄링**
 
 > CPU 를 잘 사용하기 위해 프로세스를 잘 배정하기
+>
+> 스케줄링 대상은 Ready Queue 에 있는 프로세스들이다.
 
 - 조건 : 오버헤드 ↓ / 사용률 ↑ / 기아 현상 ↓
 - 목표
@@ -50,7 +52,7 @@
 
 ### **4. CPU 스케줄링의 종류**
 
-- 비선점 스케줄링 (Non-Preemptive Scheduling)
+- 비선점(형) 스케줄링 (Non-Preemptive Scheduling)
 
   1. FCFS (First Come First Served)
      - 큐에 도착한 순서대로 CPU 할당
@@ -140,7 +142,9 @@
 
   - 처리 시간이 짧은 프로세스를 먼저 처리하기 때문에 Turnaround 평균 시간을 줄여줌
 
-  1. SRT (Shortest Remaining time First)
+  
+
+  5. SRT (Shortest Remaining time First)
 
   - 새로운 프로세스가 도착할 때마다 새로운 스케줄링이 이루어진다.
   - 현재 수행중인 프로세스의 남은 burst time 보다 더 짧은 CPU burst time 을 가지는 새로운 프로세스가 도착하면 CPU 를 뺏긴다. → aka 선점형 스케줄링
@@ -156,4 +160,11 @@
    - 실행 시간과 대기 시간을 모두 합한 시간으로 작업이 완료될 때 까지 걸린 시간
 
 <br>
+
+[정리기록]
+
+1. 03_11 : gyoogle : clear
+2. 03_11 : hanjaeyup : SRT 까지 했음
+
+
 
