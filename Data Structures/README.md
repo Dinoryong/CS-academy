@@ -2,7 +2,7 @@
 
 <br>
 
-#### 배열(Array)
+#### 배열(Array) [link]()
 
 ---
 
@@ -18,7 +18,7 @@ index를 통해 O(1)에 접근이 가능함
 
 <br>
 
-#### 리스트(List)
+#### 리스트(List) 
 
 ---
 
@@ -44,7 +44,7 @@ index를 통해 O(1)에 접근이 가능함
 
 <br>
 
-#### 스택(Stack)
+#### 스택(Stack) [link]()
 
 ---
 
@@ -56,7 +56,7 @@ LIFO 방식 (나중에 들어온게 먼저 나감)
 
 <br>
 
-#### 큐(Queue)
+#### 큐(Queue) [link]()
 
 ---
 
@@ -116,7 +116,7 @@ right index = index * 2 + 2
 
 <br>
 
-#### 트리(Tree)
+#### 트리(Tree) [link]()
 
 ---
 
@@ -148,7 +148,7 @@ right index = index * 2 + 2
 
 <br>
 
-#### 해시 테이블(Hash Table)
+#### 해시 테이블(Hash Table) [link]()
 
 ---
 
