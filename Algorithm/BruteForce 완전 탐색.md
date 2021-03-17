@@ -38,12 +38,6 @@ N개 중
 
 
 
-## SOL
-
-BruteForce는 `함수 정의`가 50% 
-
-
-
 ## 문제
 
 #### 1+A 버전 (N개 중 1.중복을 허용해서 M개를 A.순서 있게 나열하기)
@@ -79,6 +73,9 @@ rec_func(int k) {
 }
 
 
+#########
+
+
 # 입력값 받아서 배열에 저장
 import sys
 n, m = map(int, sys.stdin.readline().split(' '))
@@ -107,13 +104,110 @@ rec_func(0)
 
 [BOJ 15649_N과 M(1)](https://www.acmicpc.net/problem/15649)
 
-- How to :
+- How to : level2
+
+  <img src="C:\Users\biire\AppData\Roaming\Typora\typora-user-images\image-20210317233013416.png" alt="image-20210317233013416" style="zoom:33%;" />
 
 ```python
-#
+# 시간, 공간 복잡도 확인하기
+N = 4, M = 3  ___ ___ ___
+			   4 x 3 x 2 = 4!
+
+# 구현 스케치
 
 
-#
+# 
+import sys
+n, m = map(int, sys.stdin.readline().split(' '))
+
+selected = [0 for _ in range(m)]
+used = [0 for _ in range(n + 1)]
+def rec_func(k):
+    if k == m:
+        for x in selected:
+            sys.stdout.write(str(x) + ' ')
+        sys.stdout.write('\n')
+    else:
+        for cand in range(1, n + 1):
+            if used[cand]:
+                continue
+            selected[k] = cand
+            used[cand] = 1
+            rec_func(k + 1)
+            selected[k] = 0
+            used[cand] = 0
+
+rec_func(0)
+```
+
+
+
+#### 1 + B 버전 (N개 중 1. 중복을 허용해서 M개를 B.고르기)
+
+
+
+[BOJ 15652_N과 M(4)](https://www.acmicpc.net/problem/15652)
+
+- How to : level 2
+
+  이전 문제와의 차이점 : 고른차순 비내림차순
+
+```python
+# 시간, 복잡도 확인
+N = 4, M = 3   ___ ___ ___
+
+				4 x 4 x 4 = 4^3 보단 작다
+    			시간 : O(N^M) => 8^8 ~= 1677만 보다는 작다.
+            	공간 : O(M)
+                    
+# 구현 스케치
+start 는 이전에 쓰였던 숫자 즉, k-1 번째에 쓰였던 숫자보다는 작거나 같아야 한다.
+start 가 0이면 1로 바꿔주고 시작,
+cand 값이 0 부터 시작하는 것이 아니라 start 부터 시작한다.
+
+
+# sol
+import sys
+n, m = map(int, sys.stdin.readline().split(' '))
+
+selected = [0 for _ in range(m)]
+used = [0 for _ in range(n + 1)]
+def rec_func(k):
+    if k == m:
+        for x in selected:
+            sys.stdout.write(str(x) + ' ')
+        sys.stdout.write('\n')
+    else:
+        start = 1 if k == 0 else selected[k - 1]
+        for cand in range(start, n + 1):
+            selected[k] = cand
+            rec_func(k + 1)
+            selected[k] = 0
+
+rec_func(0)
+
+
+```
+
+
+
+#### 2 + B 버전 (N개 중 2. 중복 없이 M개를 B. 고르기)
+
+[BOJ 15650_N과 M(2)](https://www.acmicpc.net/problem/15650)
+
+How to : level 2
+
+<img src="C:\Users\biire\AppData\Roaming\Typora\typora-user-images\image-20210318010620888.png" alt="image-20210318010620888" style="zoom:33%;" />
+
+```python
+# 시간, 복잡도 확인
+N = 4, M = 3   ___ ___ ___
+
+				4 x 4 x 4 = 4^3 보단 작다
+    			시간 : O(N^M) => 8^8 ~= 1677만 보다는 작다.
+            	공간 : O(M)
+
+# 구현 스케치
 
 
 #
@@ -121,6 +215,17 @@ rec_func(0)
 
 
 
+## SOLUTION
+
+<img src="C:\Users\biire\AppData\Roaming\Typora\typora-user-images\image-20210318010815394.png" alt="image-20210318010815394" style="zoom:50%;" />
+
+BruteForce 완전 탐색 문제 접근법
+
+- BruteForce는 `함수 정의`가 50% 
+
+- 고를 수 있는 값의 종류 파악하기
+- `중복`을 허용하는 지
+- `순서`가 중요한 지
 
 
 
@@ -128,15 +233,11 @@ rec_func(0)
 
 
 
+------
 
+refs
 
-
-
-
-
-
-
-
+> [rhs_github]()
 
 
 
