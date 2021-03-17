@@ -6,6 +6,10 @@
 
 <br>
 
+## My Templates [link](https://github.com/Dinoryong/PS/blob/main/My_Templates/My%20Templates.py.md)
+
+<br>
+
 ## Pythonic Way [link](https://github.com/Dinoryong/CS-academy/blob/main/Algorithm/Pythonic%20Way.md)
 
 <br>
