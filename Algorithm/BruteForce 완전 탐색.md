@@ -229,6 +229,66 @@ BruteForce 완전 탐색 문제 접근법
 
 
 
+--------
+
+## [BOJ 14888_연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
+
+How to?
+
+- 
+
+```python
+# 구현 스케치
+N, max, min, nums, operators, order
+order[1...N - 1] 에 연산자들이 순서대로 저장될 것이다.
+
+if k=N: # 모든 연산자들을 전부 나열하는 방법을 찾은 상태
+	# 정한 연산자 순서대로 계산해서 정답을 갱신하기
+else: # k 번째 연산자는 무엇을 선택할 것인가
+    # 4 가지의 연산자들 중에 뭘 쓸 것인지 선택하고 재귀호출하기
+
+
+# SOL
+import sys
+n = int(sys.stdin.readline())
+nums = list(map(int, sys.stdin.readline().split(' ')))
+operators = list(map(int, sys.stdin.readline().split(' ')))
+min = 1e9
+max = -1e9
+
+def calculator(operand1, operator, operand2):
+    if operator == 0:
+        return operand1 + operand2
+    if operator == 1:
+        return operand1 - operand2
+    if operator == 2:
+        return operand1 * operand2
+    if operator == 3:
+        if operand1 < 0:
+            return - ((-operand1) // operand2)
+        else:
+            return operand1 // operand2
+
+def rec_func(k, value):
+    if k == n - 1:
+        global min, max
+        min = min if min < value else value
+        max = max if max > value else value
+    else:
+        global operators
+        for cand in range(4):
+            if operators[cand] >= 1:
+                operators[cand] -= 1
+                rec_func(k + 1, calculator(value, cand, nums[k + 1]))
+                operators[cand] += 1
+
+rec_func(0, nums[0])
+print(max)
+print(min)
+```
+
+
+
 
 
 
@@ -238,6 +298,10 @@ BruteForce 완전 탐색 문제 접근법
 refs
 
 > [rhs_github]()
+>
+> 03_19_응용문제 전 까지 완료
+>
+> 
 
 
 
